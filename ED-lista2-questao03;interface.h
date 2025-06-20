@@ -1,8 +1,8 @@
 /*
-** Função : Sistema de Registro de Estudantes
+** FunÃ§Ã£o : Sistema de Registro de Estudantes
 ** Autor : Erick e Daysila
 ** Data : 18/06/2025
-** Observações: Arquivo de teste do Sistema de Registro de Estudantes
+** ObservaÃ§Ãµes: Arquivo de teste do Sistema de Registro de Estudantes
 */
 
 #ifndef ESTUDANTE_H
@@ -78,7 +78,7 @@ typedef struct {
     int tamanho;
 } DequeAtendimento;
 
-// Funçõe  da Lista
+// FunÃ§Ãµe  da Lista
 ListaEstudantes* criarLista();
 void adicionarEstudante(ListaEstudantes *lista, Estudante estudante);
 int removerEstudante(ListaEstudantes *lista, int matricula);
@@ -86,21 +86,21 @@ Estudante* buscarEstudante(ListaEstudantes *lista, int matricula);
 void listarEstudantes(ListaEstudantes *lista);
 void liberarLista(ListaEstudantes *lista);
 
-// Funçõe  da Pilha
+// FunÃ§Ãµe  da Pilha
 PilhaHistorico* criarPilha();
 void empilharHistorico(PilhaHistorico *pilha, HistoricoNota historico);
 int desempilharHistorico(PilhaHistorico *pilha, HistoricoNota *historico);
 void mostrarHistorico(PilhaHistorico *pilha);
 void liberarPilha(PilhaHistorico *pilha);
 
-// Funçõe  da Fila
+// FunÃ§Ãµe  da Fila
 FilaMatricula* criarFila();
 void adicionarNaFila(FilaMatricula *fila, int matricula, char *disciplina);
 int removerDaFila(FilaMatricula *fila, int *matricula, char *disciplina);
 void mostrarFila(FilaMatricula *fila);
 void liberarFila(FilaMatricula *fila);
 
-// Funçõe  do Deque
+// FunÃ§Ãµe  do Deque
 DequeAtendimento* criarDeque();
 void adicionarInicioDeque(DequeAtendimento *deque, int matricula, char *motivo);
 void adicionarFimDeque(DequeAtendimento *deque, int matricula, char *motivo);
@@ -109,7 +109,7 @@ int removerFimDeque(DequeAtendimento *deque, int *matricula, char *motivo);
 void mostrarDeque(DequeAtendimento *deque);
 void liberarDeque(DequeAtendimento *deque);
 
-// Funçõe 
+// FunÃ§Ãµe 
 float calcularMedia(Estudante estudante);
 void atualizarNota(ListaEstudantes *lista, PilhaHistorico *pilha, int matricula, int disciplina, float novaNota);
 int contarEstudantesRecursivo(NoLista *no);
