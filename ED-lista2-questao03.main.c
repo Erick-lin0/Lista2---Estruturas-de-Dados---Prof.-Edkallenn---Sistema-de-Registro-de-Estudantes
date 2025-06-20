@@ -1,8 +1,8 @@
 /*
-** Função : Sistema de Registro de Estudantes
+** FunÃ§Ã£o : Sistema de Registro de Estudantes
 ** Autor : Erick e Daysila
 ** Data : 18/06/2025
-** Observações: Arquivo de teste do Sistema de Registro de Estudantes
+** ObservaÃ§Ãµes: Arquivo de teste do Sistema de Registro de Estudantes
 */
 
 #include "estudante.h"
