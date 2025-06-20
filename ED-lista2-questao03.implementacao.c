@@ -1,8 +1,8 @@
 /*
-** FunÁ„o : Sistema de Registro de Estudantes
+** Fun√ß√£o : Sistema de Registro de Estudantes
 ** Autor : Erick e Daysila
 ** Data : 18/06/2025
-** ObservaÁıes: ImplementaÁ„o do Sistema de Registro de Estudantes
+** Observa√ß√µes: Implementa√ß√£o do Sistema de Registro de Estudantes
 */
 
 #include "estudante.h"
@@ -134,7 +134,7 @@ void empilharHistorico(PilhaHistorico *pilha, HistoricoNota historico) {
 
 int desempilharHistorico(PilhaHistorico *pilha, HistoricoNota *historico) {
     if (pilha->topo == NULL) {
-        printf("A pilha est· vazia!\n");
+        printf("A pilha est√° vazia!\n");
         return 0;
     }
     
